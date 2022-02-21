@@ -1,4 +1,12 @@
 .header {
-    display: flex;
-    background: #000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__title {
+    padding: 60px 0 80px;
+    text-align: center;
+    color: #FFFFFF;
+    font: 700 40px/1.3 'Merienda', sans-serif;
 }

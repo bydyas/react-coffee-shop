@@ -1,11 +1,12 @@
 import { ReactComponent as Logo } from '../../assets/images/icons/logo.svg';
+import { ReactComponent as LogoBlack } from '../../assets/images/icons/logo-black.svg';
 
 import './menu.css';
 
-const Menu = () => {
+const Menu = (props) => {
     return (
         <nav className="navbar">
-            <Logo/>
+            {!props.icon ? <Logo /> : <LogoBlack />}
             <ul className="navbar__nav">
                 <li className="nav__item">
                     <a className="nav__link" href="https://www.google.com/">Coffee house</a>

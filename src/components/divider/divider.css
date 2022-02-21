@@ -1,0 +1,30 @@
+.divider {
+    margin: 35px 0 40px;
+    width: 200px;
+    height: 1px;
+    background-color: #000;
+    position: relative;
+}
+
+.divider:before {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: calc((200px - 80px) / 2);
+}
+
+.divider:after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../../assets/images/icons/beans-black.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

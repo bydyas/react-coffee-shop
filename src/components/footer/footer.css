@@ -1,0 +1,19 @@
+.footer > * {
+    margin: 0 auto;
+}
+
+.footer > .navbar {
+    padding-left: 7px;
+    margin-bottom: 35px;
+    width: auto;
+    justify-content: center;
+}
+
+.footer > .navbar .nav__link {
+   color: #000;
+}
+
+.footer > .divider {
+    margin-bottom: 20px;
+}
+
