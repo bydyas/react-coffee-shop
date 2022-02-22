@@ -12,3 +12,7 @@ export const BackgroundImageSec = require('./backgrounds/bg-2.jpg');
     about-images in frame
 */
 export const AboutImgSrc = require('./about-images/1.jpg');
+/*
+    coffee items
+*/
+export const CoffeeItemPic = require('./item-0.jpg');

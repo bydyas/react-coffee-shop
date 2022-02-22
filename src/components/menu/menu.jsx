@@ -3,10 +3,10 @@ import { ReactComponent as LogoBlack } from '../../assets/images/icons/logo-blac
 
 import './menu.css';
 
-const Menu = (props) => {
+const Menu = ({iconDefault}) => {
     return (
         <nav className="navbar">
-            {!props.icon ? <Logo /> : <LogoBlack />}
+            {iconDefault ? <Logo /> : <LogoBlack />}
             <ul className="navbar__nav">
                 <li className="nav__item">
                     <a className="nav__link" href="https://www.google.com/">Coffee house</a>

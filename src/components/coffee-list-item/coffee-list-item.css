@@ -1,0 +1,21 @@
+.coffee-list-item {
+    margin: 0 auto 60px;
+    flex: 0 220px;
+    padding: 35px 27px 20px 0;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.coffee-list-item__img {
+    padding-left: 24px;
+}
+
+.coffee-list-item__text {
+    margin: 0 auto;
+    font: 400 14px/1 'Merienda', sans-serif;
+    text-align: right;
+}
+
+.coffee-list-item__text > p {
+    margin-top: 12px;
+}

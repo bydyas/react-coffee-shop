@@ -6,7 +6,7 @@ import './footer.css';
 const Footer = () => {
     return (
         <footer className="footer">
-            <Menu icon={ true }/>
+            <Menu iconDefault={ false }/>
             <Divider />
         </footer>
     )

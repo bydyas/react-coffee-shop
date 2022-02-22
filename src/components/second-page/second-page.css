@@ -1,0 +1,22 @@
+.main-content {
+    margin: 120px auto 0;
+    max-width: 800px;
+    position: relative;
+}
+
+.main-content:after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: -59px;
+    left: calc((800px - 200px) / 2);
+}
+
+.search-panel {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}

@@ -1,0 +1,27 @@
+.search-bar__label {
+    font: 400 14px/35px 'Merienda', sans-serif;
+}
+
+.search-bar__input {
+    margin-left: 30px;
+    width: 180px;
+    height: 30px;
+    font: 400 12px/1 'Merienda', sans-serif;
+    text-align: center;
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, .25);
+    transition: all 300ms;
+}
+
+.search-bar__input:hover {
+    transform: scale(1.2);
+}
+
+.search-bar__input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+    transform: scale(1.2);
+}

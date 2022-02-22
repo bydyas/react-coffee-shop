@@ -3,7 +3,7 @@
 }
 
 .footer > .navbar {
-    padding-left: 7px;
+    padding: 0 0 0 7px;
     margin-bottom: 35px;
     width: auto;
     justify-content: center;
