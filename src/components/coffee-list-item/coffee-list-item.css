@@ -7,6 +7,9 @@
 }
 
 .coffee-list-item__img {
+    box-sizing: content-box;
+    width: 167px;
+    height: 115px;
     padding-left: 24px;
 }
 
